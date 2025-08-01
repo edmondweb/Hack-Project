@@ -1,4 +1,4 @@
-  * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -218,51 +218,106 @@
             color: #667eea;
         }
 
-        /* Skills Section */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .skill-category {
+        /* Skills Section - Updated with Tabs */
+        .skills-container {
             background: white;
-            padding: 2rem;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .skill-category h3 {
-            color: #333;
-            margin-bottom: 1.5rem;
-            text-align: center;
-            font-size: 1.3rem;
-        }
-
-        .skill-item {
-            margin-bottom: 1rem;
-        }
-
-        .skill-name {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-            color: #333;
-        }
-
-        .skill-bar {
-            height: 8px;
-            background: #e9ecef;
-            border-radius: 4px;
             overflow: hidden;
         }
 
-        .skill-progress {
-            height: 100%;
+        .skills-tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .tab-button {
+            flex: 1;
+            padding: 1.5rem 1rem;
+            background: none;
+            border: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .tab-button.active {
+            color: #667eea;
+            background: white;
+        }
+
+        .tab-button.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
             background: linear-gradient(135deg, #667eea, #764ba2);
-            border-radius: 4px;
-            transition: width 0.3s ease;
+        }
+
+        .tab-button:hover:not(.active) {
+            background: #e9ecef;
+            color: #333;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 3rem;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-3px);
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .skill-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+
+        .skill-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-description {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.4;
         }
 
         /* Projects Section */
@@ -432,16 +487,20 @@
                 grid-template-columns: 1fr;
             }
 
+            .skills-tabs {
+                flex-direction: column;
+            }
+
+            .tab-button {
+                border-bottom: 1px solid #e9ecef;
+            }
+
+            .tab-button.active::after {
+                height: 0;
+                border-right: 3px solid #667eea;
+            }
+
             .skills-grid {
                 grid-template-columns: 1fr;
             }
-        }
-
-        /* Animation for skill bars */
-        @keyframes fillBar {
-            from { width: 0; }
-        }
-
-        .skill-progress {
-            animation: fillBar 2s ease-in-out;
         }

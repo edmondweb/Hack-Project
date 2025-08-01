@@ -115,132 +115,130 @@
     <!-- Skills Section -->
     <section id="skills">
         <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Data Analysis</h3>
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>R</span>
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skills-tabs">
+                    <button class="tab-button active" onclick="openTab(event, 'data-analysis')">Data Analysis</button>
+                    <button class="tab-button" onclick="openTab(event, 'visualization')">Visualization</button>
+                    <button class="tab-button" onclick="openTab(event, 'web-dev')">Web Development</button>
+                </div>
+
+                <div id="data-analysis" class="tab-content active">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-name">R Programming</div>
+                            <div class="skill-description">Statistical computing, data manipulation with dplyr, advanced analytics</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">🐍</div>
+                            <div class="skill-name">Python</div>
+                            <div class="skill-description">Pandas, NumPy, Scikit-learn for data science and machine learning</div>
                         </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Python</span>
-                            <span>85%</span>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">📈</div>
+                            <div class="skill-name">Excel</div>
+                            <div class="skill-description">Advanced formulas, pivot tables, VBA macros, data modeling</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">🗄️</div>
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-description">Complex queries, database design, data extraction and transformation</div>
                         </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Excel</span>
-                            <span>95%</span>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">📋</div>
+                            <div class="skill-name">SPSS</div>
+                            <div class="skill-description">Statistical analysis, hypothesis testing, survey data analysis</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 95%"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>SQL</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">🔢</div>
+                            <div class="skill-name">Statistics</div>
+                            <div class="skill-description">Hypothesis testing, regression analysis, A/B testing</div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="skill-category">
-                    <h3>Visualization Tools</h3>
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Power BI</span>
-                            <span>90%</span>
+
+                <div id="visualization" class="tab-content">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-name">Power BI</div>
+                            <div class="skill-description">Interactive dashboards, DAX formulas, data modeling</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">📈</div>
+                            <div class="skill-name">Tableau</div>
+                            <div class="skill-description">Advanced visualizations, storytelling with data</div>
                         </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>Tableau</span>
-                            <span>75%</span>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">📉</div>
+                            <div class="skill-name">ggplot2</div>
+                            <div class="skill-description">R-based statistical graphics, publication-ready plots</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <div class="skill-name">D3.js</div>
+                            <div class="skill-description">Custom interactive web visualizations</div>
                         </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>ggplot2</span>
-                            <span>85%</span>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-name">Matplotlib</div>
+                            <div class="skill-description">Python plotting library, statistical visualizations</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>D3.js</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 70%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">🗺️</div>
+                            <div class="skill-name">GIS Mapping</div>
+                            <div class="skill-description">Geospatial analysis, location-based visualizations</div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="skill-category">
-                    <h3>Web Development</h3>
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>HTML</span>
-                            <span>95%</span>
+
+                <div id="web-dev" class="tab-content">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🌐</div>
+                            <div class="skill-name">HTML5</div>
+                            <div class="skill-description">Semantic markup, accessibility, modern web standards</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 95%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <div class="skill-name">CSS3</div>
+                            <div class="skill-description">Responsive design, animations, Grid & Flexbox</div>
                         </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>CSS</span>
-                            <span>90%</span>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">⚡</div>
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-description">ES6+, DOM manipulation, asynchronous programming</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">⚛️</div>
+                            <div class="skill-name">React</div>
+                            <div class="skill-description">Component-based architecture, hooks, state management</div>
                         </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>JavaScript</span>
-                            <span>85%</span>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">🅱️</div>
+                            <div class="skill-name">Bootstrap</div>
+                            <div class="skill-description">Rapid prototyping, responsive grid system</div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>React</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%"></div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">🔧</div>
+                            <div class="skill-name">Git</div>
+                            <div class="skill-description">Version control, collaboration, GitHub workflows</div>
                         </div>
                     </div>
                 </div>
