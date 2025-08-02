@@ -115,7 +115,7 @@
             display: block;
             width: 80px;
             height: 4px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: green;
             margin: 1rem auto;
             border-radius: 2px;
         }
@@ -164,7 +164,7 @@
         .education-item {
             margin-bottom: 2rem;
             padding: 1.5rem;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid green;
             background: #f8f9fa;
             border-radius: 0 10px 10px 0;
         }
@@ -181,7 +181,7 @@
 
         .cv-download {
             display: inline-block;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: green;
             color: white;
             padding: 12px 24px;
             text-decoration: none;
@@ -344,7 +344,7 @@
         }
 
         .project-header {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, green, green);
             color: white;
             padding: 2rem;
             text-align: center;
@@ -359,7 +359,7 @@
             padding: 1rem;
             border-radius: 8px;
             margin-bottom: 1.5rem;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid green;
         }
 
         .project-details h4 {
@@ -428,7 +428,7 @@
         .form-group input:focus,
         .form-group textarea:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: green;
         }
 
         .form-group textarea {
@@ -437,7 +437,7 @@
         }
 
         .submit-btn {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: green;
             color: white;
             padding: 12px 30px;
             border: none;
