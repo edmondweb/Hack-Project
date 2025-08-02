@@ -91,15 +91,15 @@
         }
 
         nav a:hover {
-            background: #667eea;
+            background: green;
             color: white;
             transform: translateY(-2px);
         }
 
         /* Section Styles */
         section {
-            padding: 4rem 0;
-            margin: 2rem 0;
+            padding: 1rem 0;
+            margin: 1rem 0;
         }
 
         .section-title {
