@@ -255,33 +255,14 @@
                         </div>
                         
                         <div class="project-details">
-                            <h4>🔹 Data Source & Preparation</h4>
+                            <h4>Visualization & Tools</h4>
                             <ul>
-                                <li>Dataset sourced from <strong>web-scraped real estate listings</strong></li>
-                                <li>Computed new variable: <strong>PSM (Price per Square Metre)</strong> as Price / Building Area</li>
-                                <li>Cleaned missing values to ensure data integrity</li>
-                            </ul>
-                            
-                            <h4>🔹 Key Findings</h4>
-                            <ul>
-                                <li><strong>Mean PSM:</strong> $7673.09 → Higher than the $6800 benchmark</li>
-                                <li><strong>Median PSM:</strong> $6919.12 → Indicates right-skewed distribution</li>
-                                <li><strong>Standard Deviation:</strong> $4862.60 → High variation in property pricing</li>
-                                <li><strong>IQR:</strong> $4173.19 → Confirms pricing variability</li>
-                            </ul>
-                            
-                            <h4>🔹 Statistical Testing</h4>
-                            <ul>
-                                <li><strong>Hypothesis:</strong> H₀: Mean PSM = $6800 vs H₁: Mean PSM > $6800</li>
-                                <li><strong>t-statistic:</strong> 12.61</li>
-                                <li><strong>p-value:</strong> < 2.2e-16 (highly significant)</li>
-                                <li><strong>Conclusion:</strong> Strong evidence that mean PSM exceeds $6800</li>
-                            </ul>
-                            
-                            <h4>🔹 Business Impact</h4>
-                            <ul>
-                                <li>Helped <strong>CityScape Insights</strong> understand Melbourne pricing trends</li>
-                                <li>Provided data-driven validation for market pricing strategies</li>
+                                <li>Computed <strong>Price per Square Metre (PSM)</strong> as a new variable (Price / Building Area)</li>
+                                <li>Used <strong>R programming language</strong> for data analysis and hypothesis testing</li>
+                                <li>Applied <strong>dplyr</strong> for data cleaning and manipulation</li>
+                                <li>Visualized distribution using <strong>ggplot2</strong> (histograms, boxplots, density plots)</li>
+                                <li>Performed <strong>t-test</strong> to assess if mean PSM exceeds benchmark value</li>
+                                <li>Generated summary statistics (mean, median, standard deviation, IQR)</li>
                             </ul>
                             
                             <div class="tech-tags">
@@ -307,35 +288,11 @@
                         </div>
                         
                         <div class="project-details">
-                            <h4>🔹 Data Overview & Scope</h4>
-                            <ul>
-                                <li>Analyzed large customer datasets containing:</li>
-                                <li><strong>Demographic details</strong> (Gender, Location, Age)</li>
-                                <li><strong>Financial data</strong> (Transaction Amount, Account Balance)</li>
-                                <li><strong>Transactional timelines</strong> (Transaction Dates)</li>
-                                <li>Data cleaned and processed using <strong>Power Query</strong> in Excel</li>
-                            </ul>
-                            
-                            <h4>🔹 Key Analysis Areas</h4>
-                            <ul>
-                                <li><strong>Gender-Based Analysis:</strong> Identified spending trends across male and female customers</li>
-                                <li><strong>Location-Based Trends:</strong> Mapped regional spending variations</li>
-                                <li><strong>Age Group Segmentation:</strong> Analyzed financial behavior by age groups</li>
-                                <li><strong>Time-Series Analysis:</strong> Highlighted peak transaction periods</li>
-                            </ul>
-                            
-                            <h4>🔹 Visualization & Tools</h4>
+                            <h4>Visualization & Tools</h4>
                             <ul>
                                 <li>Created <strong>interactive Power BI dashboards</strong></li>
                                 <li>Designed bar charts, heatmaps, and line graphs</li>
                                 <li>Used <strong>Excel & Power Query</strong> for data transformation</li>
-                            </ul>
-                            
-                            <h4>🔹 Business Impact</h4>
-                            <ul>
-                                <li>Provided customer spending insights for <strong>service personalization</strong></li>
-                                <li>Refined <strong>marketing and engagement strategies</strong> based on demographics</li>
-                                <li>Enabled data-driven decision-making through interactive reports</li>
                             </ul>
                             
                             <div class="tech-tags">
@@ -375,7 +332,7 @@
                     
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Tell me about your project or inquiry..." required></textarea>
+                        <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
                     </div>
                     
                     <button type="submit" class="submit-btn" onclick="alert('Your message has been submitted'); return true;">
