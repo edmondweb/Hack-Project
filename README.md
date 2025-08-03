@@ -5,7 +5,7 @@ Welcome to the personal portfolio website of Edmond W., a passionate data analys
 This project showcases Edmond’s skills, education, featured projects, and provides ways to get in touch or download the CV.
 🖼️ Live Demo
 
-🚀 View the portfolio online (https://edmond.netlify.app/)
+🚀 View the [portfolio online](https://edmond.netlify.app/).
 
 📁 Project Structure
 .
@@ -43,11 +43,11 @@ This project showcases Edmond’s skills, education, featured projects, and prov
 
 | Category            | Tools/Technologies                                                  |
 | ------------------- | ------------------------------------------------------------------- |
-| Frontend            | HTML5, CSS3                                                         |
+| Frontend            | HTML5, CSS3, JavaScript (mentioned as skill)                        |
 | Libraries/Tools     | Bootstrap (for layout), Git, GitHub (mentioned as skill)            |
 | Data Tools          | Python, R, SQL, SPSS, Excel, Power BI, Tableau, ggplot2, Matplotlib(mentioned as skill)  |
 | Frameworks          | React (mentioned as skill)                                          |
-| Design         | Semantic HTML, CSS Flexbox & Grid                                        |
+| Design               | Semantic HTML, CSS Flexbox & Grid                                   |
 
 
 🧠 Skills Highlighted
@@ -76,13 +76,10 @@ This project showcases Edmond’s skills, education, featured projects, and prov
 
 The website includes a fully responsive contact form (currently shows alert on submit) and links to connect with Edmond on:
 
-    LinkedIn (https://www.linkedin.com/in/edmond-web-117436174/)
-
-    GitHub (https://github.com/edmondweb)
-
-    Instagram (https://www.instagram.com/edmondweb_23/)
-
-    Twitter (X) (https://x.com/edmondweb_23)
+[LinkedIn](https://www.linkedin.com/in/edmond-web-117436174/)
+[GitHub](https://github.com/edmondweb)
+[Instagram](https://www.instagram.com/edmondweb_23/)
+[Twitter(X)](https://x.com/edmondweb_23)
 
 
 📥 How to Use
@@ -98,10 +95,9 @@ The website includes a fully responsive contact form (currently shows alert on s
 
 📄 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
 🙏 Acknowledgements
 
-    Icon sources: Icon-icons.com, Pexels, and public CDNs
-
-    Inspired by modern personal portfolio best practices
+Icon sources: [Icon-icons.com](https://icon-icons.com/), [Pexels](https://pexels.com/), and public CDNs.
+Inspired by modern personal portfolio best practices
 
