@@ -90,7 +90,7 @@ The website includes a fully responsive contact form (currently shows alert on s
 1. To run the site locally:
 
     Clone this repository:
-    git clone https://github.com/edmondweb/Hack-Project.git
+    git clone [https://github.com/edmondweb/Hack-Project.git](https://github.com/edmondweb/Hack-Project.git)
 
 2. Navigate into the project folder:
    cd hack-project
