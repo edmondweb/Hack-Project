@@ -3,9 +3,10 @@
 Welcome to the personal portfolio website of Edmond W., a passionate data analyst and frontend developer with expertise in turning raw data into actionable insights and building modern, responsive web interfaces.
 
 This project showcases Edmond’s skills, education, featured projects, and provides ways to get in touch or download the CV.
-🖼️ Live Demo
 
-🚀 View the [portfolio online](https://edmond.netlify.app/).
+
+🖼️ Live Demo
+View the [portfolio online](https://edmond.netlify.app/).
 
 📁 Project Structure
 .
