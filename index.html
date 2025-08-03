@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ed - Data Analyst | Frontend Developer</title>
+    <title>Edmond W. - Data Analyst | Frontend Developer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,6 +14,7 @@
                 <a href="index.html" class="logo">
                     <h1>Eddie</h1>
                 </a>
+                <p>Data Analyst | Frontend Developer</p>
             </div>
         </div>
     </header>
@@ -41,7 +42,6 @@
                     <img src="edd.jpg" alt="Ed">
                 </div>
                 <div class="about-text">
-                    <p>Data Analyst | Frontend Developer</p>
                     <p>I'm a passionate Data Analyst and Frontend Developer with expertise in transforming complex data into actionable insights and creating intuitive user experiences.</p>
                     <p>With a strong foundation in statistical analysis, data visualization, and modern web technologies, I bridge the gap between data and user-centric design.</p>
                 </div>
@@ -340,7 +340,7 @@
                     </button>
                 </form>
                 <!-- Contact Information -->
-                <div class="contact-info">
+                <div>
                     <nav>
                         <ul>
                             <li><a href="https://www.instagram.com/edmondweb_23/" target="_blank"><img src="ig.png" alt="Instagram" /></a></li>
@@ -349,6 +349,7 @@
                             <li><a href="https://x.com/edmondweb_23" target="_blank"><img src="x.png" alt="Twitter" /></a></li>
                         </ul>
                     </nav>
+                </div>
             </div>
         </div>
     </section>
@@ -359,36 +360,5 @@
             <p>&copy; 2025 All Rights Reserved.</p>
         </div>
     </footer>
-
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Add active class to navigation links on scroll
-        window.addEventListener('scroll', () => {
-            let current = '';
-            document.querySelectorAll('section').forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (scrollY >= (sectionTop - 200)) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            document.querySelectorAll('nav a').forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === `#${current}`) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
 </body>
 </html>
