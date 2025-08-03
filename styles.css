@@ -67,6 +67,16 @@ header::before {
     color: black;
 }
 
+.logo {
+    text-decoration: none;
+    color: inherit;
+}
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 /* Navigation */
 nav {
     background: rgba(255, 255, 255, 0.95);
